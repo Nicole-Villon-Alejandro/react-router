@@ -35,6 +35,10 @@ const Postslist = () => {
 
                                         </h4>
                                         <p className="card-text"> {elem.tags}</p>
+                                        
+
+
+
                                     </div>
                                 </div>
                             </div>
