@@ -5,6 +5,15 @@ function App() {
 
   return (
     <>
+     <BrowserRouter>
+      <Routes>
+        <Route Component={DefaultLayout}>
+          <Route path="/" Component={HomePage} />
+          <Route path="/chi siamo" Component={aboutUs} />
+          <Route path="/posts list" Component={postlist} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
       
       
       
