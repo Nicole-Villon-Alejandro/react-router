@@ -1,23 +1,24 @@
 import { Link, NavLink } from "react-router-dom"
 
-const Header = () =>{
+const Header = () => {
     return(
         <>
         <header>
             <nav>
                 <ul>
                     <li>
-                        <NavLink>
+                        <NavLink to= {'/'}>
+                        Home
 
                         </NavLink>
 
                     </li>
                     <li>
-                        <NavLink></NavLink>
+                        <NavLink to= {'/about us'}>About Us</NavLink>
 
                     </li>
                     <li>
-                        <NavLink></NavLink>
+                        <NavLink to= {'/posts list'}>Posts List</NavLink>
 
                     </li>
                 </ul>
