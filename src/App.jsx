@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route Component={DefaultLayout}>
           <Route path="/" Component={HomePage} />
-          <Route path="/about Us" Component={AboutUs} />
+          <Route path="/about us" Component={AboutUs} />
           <Route path="/posts list" Component={Postslist} />
         </Route>
       </Routes>
