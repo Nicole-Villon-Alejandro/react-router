@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage";
 import DefaultLayout from "./layouts/DefaultLayout";
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route Component={DefaultLayout}>
           <Route path="/" Component={HomePage} />
-          <Route path="/ About Us" Component={AboutUs} />
+          <Route path="/about Us" Component={AboutUs} />
           <Route path="/posts list" Component={Postslist} />
         </Route>
       </Routes>
