@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Postslist = () => {
 
@@ -31,11 +32,15 @@ const Postslist = () => {
                                 <div className="card">
                                     <div className="card-body">
                                         <h4 className="card-title">
-                                            {elem.title}
+                                            {title}
 
                                         </h4>
-                                        <p className="card-text"> {elem.tags}</p>
-                                        
+                                        <p className="card-text"> {tags}</p>
+
+                                        <NavLink to={'/'+ id} >
+                                           <button>Vai al post</button>
+
+                                        </NavLink>                                       
 
 
 
